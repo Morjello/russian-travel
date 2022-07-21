@@ -1,0 +1,13 @@
+.intro__list {
+   color: #fff;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 18px;
+   margin-top: 34px;
+   margin-bottom: 0;
+   white-space: pre-line;
+}
+
+span {
+   font-weight: 400;
+}

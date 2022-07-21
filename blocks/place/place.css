@@ -1,0 +1,30 @@
+.place {
+   display: grid;
+   grid-auto-flow: row;
+   grid-auto-rows: repeat(5, 1fr);
+   grid-template-columns: repeat(auto-fill, minmax(min-content, max-content));
+   gap: 32px;
+   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+   .place {
+      gap: 48px 28px;
+      grid-template-columns: 1fr 1.04fr;
+      grid-template-rows: repeat(2, minmax(min-content, max-content));
+      box-sizing: border-box;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .place {
+      gap: 48px 32px;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .place {
+      min-height: 581px;
+      gap: 48px 40px;
+   }
+}

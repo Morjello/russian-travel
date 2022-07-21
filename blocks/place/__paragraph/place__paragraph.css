@@ -1,0 +1,20 @@
+.place__pharagraph {
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+   .place__pharagraph {
+      grid-auto-flow: dense;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .place__pharagraph {
+      font-size: 18px;
+      line-height: 29px;
+   }
+}

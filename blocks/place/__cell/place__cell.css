@@ -1,0 +1,4 @@
+.place__cell {
+   display: grid;
+   gap: 25px;
+}
