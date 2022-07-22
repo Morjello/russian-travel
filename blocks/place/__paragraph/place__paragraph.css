@@ -4,12 +4,11 @@
    font-size: 16px;
    line-height: 26px;
    margin: 0;
+   height: max-content;
 }
 
 @media screen and (min-width: 768px) {
-   .place__pharagraph {
-      grid-auto-flow: dense;
-   }
+   .place__pharagraph {}
 }
 
 @media screen and (min-width: 1024px) {

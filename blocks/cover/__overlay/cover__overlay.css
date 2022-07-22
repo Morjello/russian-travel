@@ -46,8 +46,8 @@
 
 @media screen and (min-width: 1280px) {
    .cover__overlay {
-      width: calc(100% + 200px);
+      width: calc(100% + 168px);
       min-height: 740px;
-      margin: 0 -100px;
+      margin: 0 -84px;
    }
 }

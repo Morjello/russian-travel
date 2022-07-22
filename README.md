@@ -11,3 +11,5 @@
    }
   }
 ```
+### Ссылка проекта на GitHub Pages:
+https://morjello.github.io/russian-travel/
