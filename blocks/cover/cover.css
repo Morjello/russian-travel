@@ -1,3 +1,21 @@
 .cover {
    width: calc(100% + 32px);
 }
+
+@media screen and (min-width: 768px) {
+   .cover {
+      width: calc(100% + 48px);
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .cover {
+      width: calc(100% + 96px);
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .cover {
+      width: calc(100% + 200px);
+   }
+}

@@ -5,10 +5,13 @@
    line-height: 26px;
    margin: 0;
    height: max-content;
+   padding: 0 16px;
 }
 
 @media screen and (min-width: 768px) {
-   .place__pharagraph {}
+   .place__pharagraph {
+      padding: 0;
+   }
 }
 
 @media screen and (min-width: 1024px) {

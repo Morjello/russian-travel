@@ -1,0 +1,7 @@
+.header__link_active {
+   text-decoration: none;
+}
+
+.header__link_active:hover {
+   text-decoration: underline;
+}

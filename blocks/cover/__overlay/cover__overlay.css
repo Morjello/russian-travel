@@ -39,15 +39,11 @@
 @media screen and (min-width: 1024px) {
    .cover__overlay {
       min-height: 640px;
-      width: calc(100% + 96px);
-      margin: 0 -48px;
    }
 }
 
 @media screen and (min-width: 1280px) {
    .cover__overlay {
-      width: calc(100% + 168px);
       min-height: 740px;
-      margin: 0 -84px;
    }
 }

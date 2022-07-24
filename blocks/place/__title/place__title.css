@@ -4,14 +4,17 @@
    font-size: 32px;
    line-height: 35px;
    margin: 0;
-   white-space: pre-line;
+   white-space: normal;
    height: max-content;
+   padding: 0 16px;
 }
 
 @media screen and (min-width: 768px) {
    .place__title {
       font-size: 42px;
       line-height: 46px;
+      white-space: pre-line;
+      padding: 0;
    }
 }
 
